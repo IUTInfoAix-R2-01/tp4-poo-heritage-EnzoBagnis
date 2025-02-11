@@ -11,7 +11,7 @@ public class Cat extends Mammal{
 
 	@Override
 	public String toString() {
-		return "Cat [toString()=" + super.toString() + "]";
+		return "Cat [" + super.toString() + "]";
 	}
 
 	
