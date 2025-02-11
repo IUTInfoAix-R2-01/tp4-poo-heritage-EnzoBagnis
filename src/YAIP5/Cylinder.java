@@ -6,9 +6,13 @@ public class Cylinder {
 	private double height;
 	
 	public Cylinder(Circle base, double height) {
-		base = new Circle(10, "red");
-		this.height = height;
+	    if (base == null) {
+	        throw new IllegalArgumentException("La base du cylindre ne peut pas être null.");
+	    }
+	    this.base = base;  // Assigner correctement l'objet passé en paramètre
+	    this.height = height;
 	}
+
 
 	public Circle getBase() {
 		return base;
