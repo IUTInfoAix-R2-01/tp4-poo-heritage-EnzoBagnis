@@ -11,6 +11,9 @@ Question 8)
 Cela permet de bien verifier qu'un méthode a été redefinie et augmente la lisibilité du code. On peut s'en passer mais dans ce cas le compilateur ne vérifiera pas si il y'a une erreur dans la redéfinition de la méthode.
 
 Question 9)
+Fait sur le code
+
+Question 10)
 L’appel super.getPuissance(FrequenceCoupsDePedale) signifie que la méthode getPuissance de la classe parente (Velo) est appelée depuis la classe enfant (VeloElec).
 
 Cela permet de réutiliser la logique existante de Velo et d’y ajouter des calculs spécifiques à VeloElec, comme le facteur de puissance du moteur électrique :
